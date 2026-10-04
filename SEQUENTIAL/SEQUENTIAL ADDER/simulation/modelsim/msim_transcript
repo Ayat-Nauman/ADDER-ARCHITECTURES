@@ -1,0 +1,322 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do seq_adder_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Noman\ Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL\ AND\ PARALLEL\ 4\ BIT\ ADDER {C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:18:31 on Oct 03,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER" C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder.sv 
+# -- Compiling module seq_adder
+# 
+# Top level modules:
+# 	seq_adder
+# End time: 22:18:31 on Oct 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Noman\ Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL\ AND\ PARALLEL\ 4\ BIT\ ADDER {C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/mux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:18:31 on Oct 03,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER" C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/mux.sv 
+# -- Compiling module mux
+# 
+# Top level modules:
+# 	mux
+# End time: 22:18:31 on Oct 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Noman\ Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL\ AND\ PARALLEL\ 4\ BIT\ ADDER {C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/dff.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:18:31 on Oct 03,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER" C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/dff.sv 
+# -- Compiling module dff_10bit
+# 
+# Top level modules:
+# 	dff_10bit
+# End time: 22:18:32 on Oct 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Noman\ Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL\ AND\ PARALLEL\ 4\ BIT\ ADDER {C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/counter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:18:32 on Oct 03,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER" C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/counter.sv 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 22:18:32 on Oct 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Noman\ Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL\ AND\ PARALLEL\ 4\ BIT\ ADDER {C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:18:32 on Oct 03,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER" C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/adder.sv 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 22:18:32 on Oct 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/Noman\ Traders/Desktop/AYAT/QUARTUS/4\ INPUT\ ADDERS\ -\ ASSIGNMENT\ SIR\ TAYYAB/SEQUENTIAL\ ADDER/../../../MODELSIM/SEQUENTIAL\ AND\ PARALLEL\ 4\ BIT\ ADDER {C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:18:32 on Oct 03,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER" C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv 
+# -- Compiling module seq_adder_tb
+# 
+# Top level modules:
+# 	seq_adder_tb
+# End time: 22:18:32 on Oct 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  seq_adder_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" seq_adder_tb 
+# Start time: 22:18:32 on Oct 03,2026
+# Loading sv_std.std
+# Loading work.seq_adder_tb
+# Loading work.seq_adder
+# Loading work.counter
+# Loading work.mux
+# Loading work.adder
+# Loading work.dff_10bit
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv(43)
+#    Time: 170 ns  Iteration: 0  Instance: /seq_adder_tb
+# Break in Module seq_adder_tb at C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv line 43
+vlog -sv -work work {+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER} {C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:24:14 on Oct 03,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER" C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv 
+# -- Compiling module seq_adder_tb
+# 
+# Top level modules:
+# 	seq_adder_tb
+# End time: 22:24:14 on Oct 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.seq_adder_tb
+vlog -sv -work work {+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER} {C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:25:43 on Oct 03,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER" C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv 
+# -- Compiling module seq_adder_tb
+# 
+# Top level modules:
+# 	seq_adder_tb
+# End time: 22:25:43 on Oct 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.seq_adder_tb
+run -all
+# ** Note: $stop    : C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv(43)
+#    Time: 130 ns  Iteration: 0  Instance: /seq_adder_tb
+# Break in Module seq_adder_tb at C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv line 43
+vlog -sv -work work {+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER} {C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:26:33 on Oct 03,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER" C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv 
+# -- Compiling module seq_adder_tb
+# 
+# Top level modules:
+# 	seq_adder_tb
+# End time: 22:26:33 on Oct 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.seq_adder_tb
+run -all
+# ** Note: $stop    : C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv(43)
+#    Time: 150 ns  Iteration: 0  Instance: /seq_adder_tb
+# Break in Module seq_adder_tb at C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv line 43
+vlog -sv -work work {+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER} {C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:27:09 on Oct 03,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER" C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv 
+# -- Compiling module seq_adder_tb
+# 
+# Top level modules:
+# 	seq_adder_tb
+# End time: 22:27:09 on Oct 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.seq_adder_tb
+run -all
+# ** Note: $stop    : C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv(43)
+#    Time: 170 ns  Iteration: 0  Instance: /seq_adder_tb
+# Break in Module seq_adder_tb at C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv line 43
+vlog -sv -work work {+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER} {C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:27:43 on Oct 03,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER" C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv 
+# -- Compiling module seq_adder_tb
+# 
+# Top level modules:
+# 	seq_adder_tb
+# End time: 22:27:43 on Oct 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.seq_adder_tb
+run -all
+# ** Note: $stop    : C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv(43)
+#    Time: 170 ns  Iteration: 0  Instance: /seq_adder_tb
+# Break in Module seq_adder_tb at C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv line 43
+vlog -sv -work work {+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER} {C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:44 on Oct 03,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER" C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv 
+# -- Compiling module seq_adder_tb
+# 
+# Top level modules:
+# 	seq_adder_tb
+# End time: 22:30:44 on Oct 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.seq_adder_tb
+run -all
+# ** Note: $stop    : C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv(43)
+#    Time: 210 ns  Iteration: 0  Instance: /seq_adder_tb
+# Break in Module seq_adder_tb at C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv line 43
+vlog -sv -work work {+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER} {C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:32 on Oct 03,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER" C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv 
+# -- Compiling module seq_adder_tb
+# 
+# Top level modules:
+# 	seq_adder_tb
+# End time: 22:31:33 on Oct 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart
+# Loading work.seq_adder_tb
+run -all
+# ** Note: $stop    : C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv(43)
+#    Time: 170 ns  Iteration: 0  Instance: /seq_adder_tb
+# Break in Module seq_adder_tb at C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv line 43
+vlog -sv -work work {+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER} {C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:44:16 on Oct 03,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER" C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv 
+# -- Compiling module seq_adder_tb
+# 
+# Top level modules:
+# 	seq_adder_tb
+# End time: 22:44:16 on Oct 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.seq_adder_tb
+run -all
+# ** Note: $stop    : C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv(43)
+#    Time: 180 ns  Iteration: 0  Instance: /seq_adder_tb
+# Break in Module seq_adder_tb at C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv line 43
+vlog -sv -work work {+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER} {C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:45:19 on Oct 03,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER" C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv 
+# -- Compiling module seq_adder_tb
+# 
+# Top level modules:
+# 	seq_adder_tb
+# End time: 22:45:19 on Oct 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.seq_adder_tb
+run -all
+# ** Note: $stop    : C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv(43)
+#    Time: 180 ns  Iteration: 0  Instance: /seq_adder_tb
+# Break in Module seq_adder_tb at C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv line 43
+vlog -sv -work work {+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER} {C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:46:00 on Oct 03,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER" C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv 
+# -- Compiling module seq_adder_tb
+# 
+# Top level modules:
+# 	seq_adder_tb
+# End time: 22:46:00 on Oct 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.seq_adder_tb
+restart
+run -all
+# ** Note: $stop    : C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv(43)
+#    Time: 170 ns  Iteration: 0  Instance: /seq_adder_tb
+# Break in Module seq_adder_tb at C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv line 43
+vlog -sv -work work {+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER} {C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:46:29 on Oct 03,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER" C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv 
+# -- Compiling module seq_adder_tb
+# 
+# Top level modules:
+# 	seq_adder_tb
+# End time: 22:46:29 on Oct 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.seq_adder_tb
+run -all
+# ** Note: $stop    : C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv(43)
+#    Time: 170 ns  Iteration: 0  Instance: /seq_adder_tb
+# Break in Module seq_adder_tb at C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv line 43
+restart
+run -all
+# ** Note: $stop    : C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv(43)
+#    Time: 170 ns  Iteration: 0  Instance: /seq_adder_tb
+# Break in Module seq_adder_tb at C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv line 43
+vlog -sv -work work {+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER} {C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:47:32 on Oct 03,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER" C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv 
+# -- Compiling module seq_adder_tb
+# 
+# Top level modules:
+# 	seq_adder_tb
+# End time: 22:47:32 on Oct 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.seq_adder_tb
+run -all
+# ** Note: $stop    : C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv(43)
+#    Time: 170 ns  Iteration: 0  Instance: /seq_adder_tb
+# Break in Module seq_adder_tb at C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv line 43
+vlog -sv -work work {+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER} {C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:48:00 on Oct 03,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER" C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv 
+# -- Compiling module seq_adder_tb
+# 
+# Top level modules:
+# 	seq_adder_tb
+# End time: 22:48:01 on Oct 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart
+# Loading work.seq_adder_tb
+run -all
+# ** Note: $stop    : C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv(43)
+#    Time: 170 ns  Iteration: 0  Instance: /seq_adder_tb
+# Break in Module seq_adder_tb at C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv line 43
+vlog -sv -work work {+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER} {C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:48:38 on Oct 03,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER" C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv 
+# -- Compiling module seq_adder_tb
+# 
+# Top level modules:
+# 	seq_adder_tb
+# End time: 22:48:38 on Oct 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.seq_adder_tb
+run -all
+# ** Note: $stop    : C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv(43)
+#    Time: 170 ns  Iteration: 0  Instance: /seq_adder_tb
+# Break in Module seq_adder_tb at C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv line 43
+# End time: 23:36:08 on Oct 03,2026, Elapsed time: 1:17:36
+# Errors: 0, Warnings: 0

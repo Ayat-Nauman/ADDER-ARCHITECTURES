@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/UNROLLED-NON PIPELINED ADDER/simulation/modelsim
+vunrolled_adder
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1791047470
+!i10b 1
+!s100 ]DNQVoSD<M1f>c0gB4;cK2
+I``hhO>AaZB`0@hohhYbXm0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 unrolled_adder_sv_unit
+S1
+R0
+w1791031605
+8C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/unrolled_adder.sv
+FC:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/unrolled_adder.sv
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1791047470.000000
+!s107 C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/unrolled_adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER|C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/unrolled_adder.sv|
+!i113 1
+Z4 o-sv -work work
+!s92 -sv -work work {+incdir+C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER}
+Z5 tCvgOpt 0
+vunrolled_adder_tb
+R1
+!s110 1791047574
+!i10b 1
+!s100 ToTDoUCjd0MV>@:]_V1zO1
+I`FTg0kD0dglMFR][FN17`3
+R2
+!s105 unrolled_adder_tb_sv_unit
+S1
+R0
+w1791047567
+8C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/unrolled_adder_tb.sv
+FC:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/unrolled_adder_tb.sv
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1791047574.000000
+!s107 C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/unrolled_adder_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/UNROLLED-NON PIPELINED ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER|C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/unrolled_adder_tb.sv|
+!i113 1
+R4
+!s92 -sv -work work {+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/UNROLLED-NON PIPELINED ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER}
+R5

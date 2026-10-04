@@ -1,0 +1,160 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/simulation/modelsim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1791047912
+!i10b 1
+!s100 f[RA>8I2o>CWD4CS2TI6`3
+IN19MjzI2`91C?JMMJc8?P3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 adder_sv_unit
+S1
+R0
+w1791000646
+8C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/adder.sv
+FC:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/adder.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1791047912.000000
+!s107 C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER|C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/adder.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work {+incdir+C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER}
+Z8 tCvgOpt 0
+vcounter
+R1
+R2
+!i10b 1
+!s100 WZ3gkSzQ293mDLfUFh?293
+IMCbR46DbT9G^kd2YQ]==b2
+R3
+!s105 counter_sv_unit
+S1
+R0
+w1791003574
+8C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/counter.sv
+FC:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/counter.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/counter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER|C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/counter.sv|
+!i113 1
+R6
+R7
+R8
+vdff_10bit
+R1
+R2
+!i10b 1
+!s100 d<?oz`_Ge1En9`:2zZRXa2
+IEF`z_Z4VJ6TDlofYQ7:Jd1
+R3
+!s105 dff_sv_unit
+S1
+R0
+w1791007554
+8C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/dff.sv
+FC:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/dff.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z9 !s108 1791047911.000000
+!s107 C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/dff.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER|C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/dff.sv|
+!i113 1
+R6
+R7
+R8
+vmux
+R1
+Z10 !s110 1791047911
+!i10b 1
+!s100 g3PVK]VVdc;JboP169TPF2
+Ia?j91:Jf`fDNB:0cMF?8h2
+R3
+!s105 mux_sv_unit
+S1
+R0
+w1791006798
+8C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/mux.sv
+FC:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/mux.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/mux.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER|C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/mux.sv|
+!i113 1
+R6
+R7
+R8
+vseq_adder
+R1
+R10
+!i10b 1
+!s100 eMQkRzVV@=JIaL2<Uj3U=1
+IXb^`Z4J1RAjf]^n]CXGcO2
+R3
+!s105 seq_adder_sv_unit
+S1
+R0
+w1791007614
+8C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder.sv
+FC:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER|C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder.sv|
+!i113 1
+R6
+R7
+R8
+vseq_adder_tb
+R1
+!s110 1791049718
+!i10b 1
+!s100 W?0[`9WgE;oo32Cj1a:Gl2
+IjYQnIFH[[4aPOIM`;Vizk1
+R3
+!s105 seq_adder_tb_sv_unit
+S1
+R0
+w1791049708
+8C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv
+FC:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1791049718.000000
+!s107 C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER|C:/Users/Noman Traders/Desktop/AYAT/MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER/seq_adder_tb.sv|
+!i113 1
+R6
+!s92 -sv -work work {+incdir+C:/Users/Noman Traders/Desktop/AYAT/QUARTUS/4 INPUT ADDERS - ASSIGNMENT SIR TAYYAB/SEQUENTIAL ADDER/../../../MODELSIM/SEQUENTIAL AND PARALLEL 4 BIT ADDER}
+R8
